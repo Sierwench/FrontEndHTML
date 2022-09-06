@@ -1,86 +1,65 @@
 * {
-  box-sizing: content-box;
   padding: 0;
   margin: 0;
+  box-sizing: content-box;
 }
 
-.container {
-  width: 100%;
-  min-height: 80vh;
+body {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-color: rgba(19, 117, 202, 0.572);
-}
-
-header {
-  min-width: 50%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: chartreuse;
-  padding: 2em;
-}
-
-h1 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(24, 149, 149);
-  text-transform: uppercase;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2em;
-  padding-left: 2em;
-  transition: 0.5s all ease-in-out;
-}
-
-a:hover {
-  color: blueviolet;
-  font-weight: bold;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: 2em 2em 0em 0em;
-}
-
-p {
-  padding: 2em 2em 2em 0;
-}
-
-ul {
-  padding-left: 5em;
+  min-height: 90vh;
+  font-family: sans-serif;
+  background-color: aliceblue;
 }
 
 img {
-  width: 50%;
-  float: left;
-  padding-right: 2em;
+  width: 100px;
+  border-radius: 50%;
 }
 
 button {
-  padding: 1em;
+  display: flex;
+  justify-content: center;
   border: none;
+  border-radius: 1em;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1),
+    rgba(5, 105, 184, 1)
+  );
+  padding: 1em;
+  width: 30%;
   float: right;
-  background-color: chartreuse;
-  color: white;
-  font-size: 1.2em;
-  transition: 0.4s all ease-in-out;
+  margin: -15% -30%;
+  color: whitesmoke;
+  box-shadow: 0 5px 10px 0 gray;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: rebeccapurple;
-  border-radius: 20% 10%;
+  background: linear-gradient(90deg, rgba(212, 43, 69, 0.555), rgb(28, 9, 9));
 }
 
-footer {
-  text-align: center;
-  color: rgb(56, 89, 23);
+.kortele {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 30%;
+  padding: 5em;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px 0px gray;
+}
+
+div > a {
+  display: flex;
+  padding-top: 2em;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline black;
 }

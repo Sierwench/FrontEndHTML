@@ -34,7 +34,7 @@ a {
 
 .sekcijos-wrapas {
   width: 50%;
-  padding-top: 2em;
+  padding-top: 4em;
   margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ p {
 }
 
 hr {
-  margin: 2em 0;
+  /* margin: 2em 0; */
 }
 /* antra skitlis */
 
@@ -101,4 +101,13 @@ footer {
   text-align: center;
   padding: 2em 0;
   background-color: rgba(236, 174, 141, 0.485);
+}
+
+h1 {
+  background-color: rgba(72, 255, 255, 0.545);
+  padding: 2em 24%;
+}
+
+.spalva {
+  background-color: rgba(72, 255, 255, 0.545);
 }

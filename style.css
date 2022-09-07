@@ -1,65 +1,104 @@
 * {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
-  box-sizing: content-box;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  min-height: 90vh;
   font-family: sans-serif;
-  background-color: aliceblue;
 }
 
-img {
+.ikona {
   width: 100px;
-  border-radius: 50%;
+  border-radius: 15%;
 }
 
-button {
+header {
   display: flex;
-  justify-content: center;
-  border: none;
-  border-radius: 1em;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 212, 255, 1),
-    rgba(5, 105, 184, 1)
-  );
-  padding: 1em;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+  background-color: rgba(236, 174, 141, 0.485);
+}
+
+nav > ul {
+  display: flex;
+  gap: 2em;
+}
+
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.15em;
+  color: azure;
+}
+
+/* Antra skiltis */
+
+.sekcijos-wrapas {
+  width: 50%;
+  padding-top: 2em;
+  margin: 0 auto;
+}
+
+.push-away {
+  padding: 3em;
+}
+
+h2,
+p {
+  padding-bottom: 2em;
+}
+
+.paveikslas {
   width: 30%;
   float: right;
-  margin: -15% -30%;
-  color: whitesmoke;
-  box-shadow: 0 5px 10px 0 gray;
-  cursor: pointer;
 }
 
-button:hover {
-  background: linear-gradient(90deg, rgba(212, 43, 69, 0.555), rgb(28, 9, 9));
+hr {
+  margin: 2em 0;
 }
+/* antra skitlis */
 
-.kortele {
+.centruot {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  padding: 2em 0;
+  gap: 25px;
+}
+
+.table-style {
+  border: 1px solid rgba(128, 128, 128, 0.599);
+  border-radius: 15px;
+}
+
+.table-style,
+td {
+  border-bottom: 1px solid black;
+  padding: 1em;
+  width: 50%;
+}
+
+/* burbuliukai */
+
+.artas {
+  display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  width: 30%;
-  padding: 5em;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 1px 5px 10px 0px gray;
+  gap: 50px;
+  padding: 2em 0;
 }
 
-div > a {
-  display: flex;
-  padding-top: 2em;
-  text-decoration: none;
+.artas img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid black;
 }
 
-a:hover {
-  text-decoration: underline black;
+/* Footer */
+
+.special {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2em 0;
+  background-color: rgba(236, 174, 141, 0.485);
 }
